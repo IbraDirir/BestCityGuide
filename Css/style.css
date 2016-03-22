@@ -7,6 +7,10 @@ body {
 	color: #3a3a3a;
 }
 
+*{
+ box-sizing: border-box;
+}
+
 a {
 	color: #fff;
 	text-decoration: none;
@@ -25,9 +29,11 @@ margin: 0;
 /* ---- Layout Containers ---- */
 
 .container{
-  width:70%;
-  margin:0 auto;
+ padding-left: 1em;
+ padding-right: 1em;
 }
+
+
 
 
 .main-header {
@@ -43,3 +49,15 @@ margin: 0;
 }
 
 /* ---- Page Elements ---- */
+
+/* =================================
+Media queries
+==================================== */
+@media(min-width: 769px){
+  .container{
+  width:70%;
+  background:blue;
+  max-width:1000px;
+  margin: 0 auto;
+  }
+}
