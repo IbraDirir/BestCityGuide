@@ -57,10 +57,20 @@ Media queries
     .wrap{
     min-height: cal(100vh - 89);
     }
-    .container{
+.container{
   width:70%;
-  background:blue;
   max-width:1000px;
   margin: 0 auto;
   }
+  .name,
+  .main-nav,
+  .main-nav li{
+  display:inline-block;
+  }
+.name a,
+.main-nav a{
+padding:15px 20px;
+display:block;
+}
+
 }
