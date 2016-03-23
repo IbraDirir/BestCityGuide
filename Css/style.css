@@ -107,9 +107,9 @@ min-height: calc(100vh - 89px);
 
 }
 
-    .name{
-    width:540px;
-    margin:0 50px;
+ .name{
+width:540px;
+margin:0 50px;
     }
     .main-nav li{
     margin-right: 12px;
@@ -121,22 +121,15 @@ min-height: calc(100vh - 89px);
     margin: 0 auto;
     }
 
-.container{
-display:block;
-width:100%;
-}
-.primary-col{
-float:right;
-display:inline-block;
-width:50%
-
-}
-
-.secondary-col,
-{
- display:inline-block;
-  float:right;
-  width:50%;
-
-}
-}
+.col {
+   float: right;
+    width: 50%;
+    background:tomato;
+	padding-left:1em;
+	padding-right: 1em;
+	}
+    .clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+    }
