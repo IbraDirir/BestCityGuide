@@ -93,7 +93,6 @@ width: 145px;
 }
 .banner{
     text-align: center;
-    margin: 0 auto;
 }
 
 /* =================================
@@ -123,17 +122,29 @@ margin:0 50px;
     margin-right: 12px;
     }
 
-    .container {
-    width: 80%;
-    max-width: 1150px;
-    margin: 0 auto;
+.container {
+  width: 80%;
+ max-width: 1150px;
+ margin: 0 auto;
     }
+
+.primary{
+width: 40%;
+}
+
+.seconday{
+width: 30%;
+}
+
+.tertiary{
+width: 30%;
+}
+
+
 
 .col {
    float: right;
-    width: 50%;
-    background:tomato;
-	padding-left:1em;
+   padding-left: 1em;
 	padding-right: 1em;
 	}
     .clearfix::after{
